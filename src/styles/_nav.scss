@@ -3,15 +3,19 @@
   box-shadow: 0 0.5rem 1.2rem  rgb(0 0 0 / 5%) !important;
 }
 
-.app-navbar-menu .nav-link{
+.app-navbar-menu .nav-link {
   color: #9cb2ac;
   font-weight: 600;
   border-bottom: 4px solid #fff;
 
   &:hover,
   &:focus {
-    color: rgba(0,185,127,255);
+    color: #00b97f;
     text-decoration: none;
-    border-bottom: 4px solid rgba(0,185,127,255);
+    border-bottom: 4px solid #00b97f;
   }
+}
+
+.app-navbar-menu .nav-link.active {
+  border-bottom: 4px solid #00b97f;
 }

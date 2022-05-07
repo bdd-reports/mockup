@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const webpack = require('webpack')
 
 
-let htmlPageNames = ['index', 'dashboard'];
+let htmlPageNames = ['index', 'dashboard', 'features'];
 let multipleHtmlPlugins = htmlPageNames.map(name => {
   return new HtmlWebpackPlugin({
     template: path.resolve(__dirname, "views", `${name}.html`), // relative path to the HTML files
